@@ -1,0 +1,66 @@
+body{
+	background-image: url(image7.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	font-family: Georgia, times, seriff;
+	font-style: italic;
+	text-align: left;
+	text-indent: all;
+	background-color: rgb(100,100,90);
+	font-size: 100%
+	padding-top:10px;
+
+}
+h1{font-size: 40px;
+	background-image: url(image6.jpg);
+}
+
+}
+}
+h2{
+	font-size: 50px
+	font-style:italic;
+}
+p.one{
+	border-top-left-radius: 80px 50px;
+	-moz-border-radius-top-left:80px 50px;
+	-webkit-border-radius-top-left:80px 50px;
+}
+p.two{
+	border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+	-moz-border-radius:1em 4em 1em 4em / 2em 1em 2em 1em;
+	-webkit-border-radius:1em 4em 1em 4em / 2em 1em 2em 1em;
+}
+p.three{
+	padding: 0px;
+	border-radius: 100px;
+	-moz-border-radius:100px;
+	-webkit-border-radius:100px;
+}
+ul{
+	font-size: 20px;
+	float: right;
+	list-style-type: none;
+	text-align: left;
+}
+ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 50px 20px;
+	text-decoration: none;
+	color: #fff;
+}
+div{
+	text-align: left;
+
+}
+#sideNav{
+	width: 150px;
+	height: 100vh;
+	position: fixed;
+	right: 0;
+	top: 0;
+	background: #009688;
+		z-index:2;
+	}
